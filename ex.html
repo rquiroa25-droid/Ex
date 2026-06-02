@@ -7,6 +7,18 @@
     <title>Document</title>
 </head>
 <body>
+     <from>
+        <p>Elija su materia favorita</p>
+        <input type="radio"id="geografia" name="materia" value="geografia">
+        <label for="geografia">geografia</label>
+
+        <input type="radio"id="lengua" name="materia" value="lengua">
+        <label for="lengua">lengua</label>
+
+        <input type="radio"id="matematicas"name="matematicas" values=""matematicas>
+        <label for="matematicas">matematicas</label>
+    </from>
+
     <section class="Formulario">
         <input class="control" type="text" name="nombre" id="nombre" placeholder="nombre">
     <input class="control" type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
@@ -14,5 +26,14 @@
     <input class="control" type="password" name="pass" id="pss" placeholder="Contraseña">
     <input class="boton" type="submit" value="Registrar">
     </section>
+
+    <form>
+        <label for="materia">Elija su materia favorita</label>
+        <select id="materia" name="materia">
+            <option value="historia"> Historia</option>
+            <option value="mate">Mate</option>
+            <option value="ingles">Ingles</option>
+        </select>
+    </form>
 </body>
 </html>
